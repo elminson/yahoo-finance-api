@@ -1,14 +1,14 @@
-scheb/yahoo-finance-api
+elminson/yahoo-finance-api
 =======================
 
 **This is a PHP client for Yahoo Finance API.**
 
-[![Build Status](https://github.com/scheb/yahoo-finance-api/workflows/CI/badge.svg?branch=4.x)](https://github.com/scheb/yahoo-finance-api/actions?query=workflow%3ACI+branch%3A4.x)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/scheb/yahoo-finance-api/badges/quality-score.png?b=4.x)](https://scrutinizer-ci.com/g/scheb/yahoo-finance-api/?branch=4.x)
-[![Code Coverage](https://scrutinizer-ci.com/g/scheb/yahoo-finance-api/badges/coverage.png?b=4.x)](https://scrutinizer-ci.com/g/scheb/yahoo-finance-api/?branch=4.x)
-[![Latest Stable Version](https://img.shields.io/packagist/v/scheb/yahoo-finance-api)](https://packagist.org/packages/scheb/yahoo-finance-api)
-[![Total Downloads](https://img.shields.io/packagist/dt/scheb/yahoo-finance-api)](https://packagist.org/packages/scheb/yahoo-finance-api/stats)
-[![License](https://poser.pugx.org/scheb/yahoo-finance-api/license.svg)](https://packagist.org/packages/scheb/yahoo-finance-api)
+[![Build Status](https://github.com/elminson/yahoo-finance-api/workflows/CI/badge.svg?branch=4.x)](https://github.com/elminson/yahoo-finance-api/actions?query=workflow%3ACI+branch%3A4.x)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/elminson/yahoo-finance-api/badges/quality-score.png?b=4.x)](https://scrutinizer-ci.com/g/elminson/yahoo-finance-api/?branch=4.x)
+[![Code Coverage](https://scrutinizer-ci.com/g/elminson/yahoo-finance-api/badges/coverage.png?b=4.x)](https://scrutinizer-ci.com/g/elminson/yahoo-finance-api/?branch=4.x)
+[![Latest Stable Version](https://img.shields.io/packagist/v/elminson/yahoo-finance-api)](https://packagist.org/packages/elminson/yahoo-finance-api)
+[![Total Downloads](https://img.shields.io/packagist/dt/elminson/yahoo-finance-api)](https://packagist.org/packages/elminson/yahoo-finance-api/stats)
+[![License](https://poser.pugx.org/elminson/yahoo-finance-api/license.svg)](https://packagist.org/packages/elminson/yahoo-finance-api)
 
 <p align="center"><img alt="Logo" src="doc/logo.svg" width="180" /></p>
 
@@ -21,7 +21,7 @@ Since YQL APIs have been discontinued in November 2017, this client is using non
 Download via Composer:
 
 ```bash
-composer require scheb/yahoo-finance-api
+composer require elminson/yahoo-finance-api
 ```
 
 Alternatively you can also add the package directly to composer.json:
@@ -29,7 +29,7 @@ Alternatively you can also add the package directly to composer.json:
 ```json
 {
     "require": {
-        "scheb/yahoo-finance-api": "^4.0"
+        "elminson/yahoo-finance-api": "^4.0"
     }
 }
 ```
@@ -37,7 +37,7 @@ Alternatively you can also add the package directly to composer.json:
 and then tell Composer to install the package:
 
 ```bash
-composer update scheb/yahoo-finance-api
+composer update elminson/yahoo-finance-api
 ```
 
 ## Usage
@@ -55,10 +55,10 @@ $options = [/* ... */];
 $guzzleClient = new Client($options);
 $client = ApiClientFactory::createApiClient($guzzleClient);
 
-// Returns an array of Scheb\YahooFinanceApi\Results\SearchResult
+// Returns an array of Elminson\YahooFinanceApi\Results\SearchResult
 $searchResult = $client->search("Apple");
 
-// Returns an array of Scheb\YahooFinanceApi\Results\HistoricalData
+// Returns an array of Elminson\YahooFinanceApi\Results\HistoricalData
 $historicalData = $client->getHistoricalQuoteData(
     "AAPL",
     ApiClient::INTERVAL_1_DAY,
@@ -66,33 +66,33 @@ $historicalData = $client->getHistoricalQuoteData(
     new \DateTime("today")
 );
 
-// Retrieve dividends history, returns an array of Scheb\YahooFinanceApi\Results\DividendData
+// Retrieve dividends history, returns an array of Elminson\YahooFinanceApi\Results\DividendData
 $dividendData = $client->getHistoricalDividendData(
     "AAPL",
     new \DateTime("-5 years"),
     new \DateTime("today")
 );
 
-// Retrieve stock split history, returns an array of Scheb\YahooFinanceApi\Results\SplitData
+// Retrieve stock split history, returns an array of Elminson\YahooFinanceApi\Results\SplitData
 $splitData = $client->getHistoricalSplitData(
     "AAPL",
     new \DateTime("-5 years"),
     new \DateTime("today")
 );
 
-// Returns Scheb\YahooFinanceApi\Results\Quote
+// Returns Elminson\YahooFinanceApi\Results\Quote
 $exchangeRate = $client->getExchangeRate("USD", "EUR");
 
-// Returns an array of Scheb\YahooFinanceApi\Results\Quote
+// Returns an array of Elminson\YahooFinanceApi\Results\Quote
 $exchangeRates = $client->getExchangeRates([
     ["USD", "EUR"],
     ["EUR", "USD"],
 ]);
 
-// Returns Scheb\YahooFinanceApi\Results\Quote
+// Returns Elminson\YahooFinanceApi\Results\Quote
 $quote = $client->getQuote("AAPL");
 
-// Returns an array of Scheb\YahooFinanceApi\Results\Quote
+// Returns an array of Elminson\YahooFinanceApi\Results\Quote
 $quotes = $client->getQuotes(["AAPL", "GOOG"]);
 ```
 
@@ -106,10 +106,10 @@ Version Guidance
 | [3.x][v3-repo] | EOL        |>= 5.6.0     |
 | [4.x][v4-repo] | Maintained |>= 7.1.3     |
 
-[v1-repo]: https://github.com/scheb/yahoo-finance-api/tree/1.x
-[v2-repo]: https://github.com/scheb/yahoo-finance-api/tree/2.x
-[v3-repo]: https://github.com/scheb/yahoo-finance-api/tree/3.x
-[v4-repo]: https://github.com/scheb/yahoo-finance-api/tree/4.x
+[v1-repo]: https://github.com/elminson/yahoo-finance-api/tree/1.x
+[v2-repo]: https://github.com/elminson/yahoo-finance-api/tree/2.x
+[v3-repo]: https://github.com/elminson/yahoo-finance-api/tree/3.x
+[v4-repo]: https://github.com/elminson/yahoo-finance-api/tree/4.x
 
 License
 -------

@@ -85,7 +85,7 @@ class ApiClient
      */
     public function getHistoricalData(string $symbol, string $interval, \DateTimeInterface $startDate, \DateTimeInterface $endDate): array
     {
-        @trigger_error('[scheb/yahoo-finance-api] getHistoricalData() is deprecated and will be removed in a future release', \E_USER_DEPRECATED);
+        @trigger_error('[elminson/yahoo-finance-api] getHistoricalData() is deprecated and will be removed in a future release', \E_USER_DEPRECATED);
 
         return $this->getHistoricalQuoteData($symbol, $interval, $startDate, $endDate);
     }
