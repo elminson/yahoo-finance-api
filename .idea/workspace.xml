@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142586dc-85f2-465a-9d19-d451fcb32c9d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/pull_request_template.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/pull_request_template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/example.php" beforeDir="false" afterPath="$PROJECT_DIR$/doc/example.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ApiClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiClient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApiClientFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApiClientFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/ApiException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/ApiException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exception/InvalidValueException.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception/InvalidValueException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ResultDecoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResultDecoder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Results/DividendData.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results/DividendData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Results/HistoricalData.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results/HistoricalData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Results/Quote.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results/Quote.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Results/SearchResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results/SearchResult.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Results/SplitData.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Results/SplitData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserAgent.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserAgent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValueMapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValueMapper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ValueMapperInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValueMapperInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ApiClientIntegrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ApiClientIntegrationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ResultDecoderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ResultDecoderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ValueMapperTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ValueMapperTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +106,7 @@
   "keyToString": {
     "PHPUnit.ApiClientIntegrationTest.testStockSummary.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/dev",
+    "git-widget-placeholder": "feature/changingNamespace",
     "last_opened_file_path": "/Volumes/External/projects/yahoo-finance-api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.stylelint": "true",
@@ -155,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708804351681</updated>
-      <workItem from="1708804353023" duration="3755000" />
+      <workItem from="1708804353023" duration="4224000" />
     </task>
     <servers />
   </component>

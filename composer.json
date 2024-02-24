@@ -3,12 +3,16 @@
     "type": "library",
     "description": "PHP library for accessing Yahoo Finance data",
     "keywords": ["yahoo", "finance", "stock", "api"],
-    "homepage": "https://github.com/scheb/yahoo-finance-api",
+    "homepage": "https://github.com/elminson/yahoo-finance-api",
     "license": "MIT",
     "authors": [
         {
             "name": "Christian Scheb",
-            "email": "me@christianscheb.de"
+            "email": "me@christianelminson.de"
+        },
+        {
+            "name": "Elminson De Oleo Baez",
+            "email": "edeoleo@gmail.com"
         }
     ],
     "require": {
